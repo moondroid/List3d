@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">List3d</string>
+    <string name="hello_world">Hello World, ListTest!</string>
+    <string name="action_settings">Settings</string>
+    <string name="rounded_view_title">Rounded ListView</string>
+    <string name="three_d_view_title">3d ListView</string>
+    <string name="settings_list_title">Unbound ListView</string>
+    <string name="view_demo">View Demo</string>
+    <string name="aboult">This demo demonstrates custom ListView controls developed by Lemberg. The ListView library makes it easy to implement a set of different attractive list styles for your own Android app.</string>
+    <string name="more_info">More info: http://listview.android-libraries.com/</string>
+    <string name="planet_prompt">Choose a planet</string>
+    <string name="new_game">ADD</string>
+    <string name="help">delete</string>
+    <string name="delete_all">delete all</string>
+
+</resources>
