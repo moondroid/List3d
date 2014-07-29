@@ -7,6 +7,7 @@ import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.Bitmap.Config;
 import android.graphics.Canvas;
+import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Rect;
 import android.graphics.drawable.ColorDrawable;
@@ -109,7 +110,7 @@ public class ThreeDListView extends ListView {
         this.useChildDrawingCache = true;
         this.onNativeScroll = false;
         setDividerHeight(BORDER_ALPHA);
-        setSelector(new ColorDrawable(0));
+        setSelector(new ColorDrawable(Color.TRANSPARENT));
         setScrollListener();
         initOverscrollingStubs(theContext);
         setDefaultHighlightContainer();
